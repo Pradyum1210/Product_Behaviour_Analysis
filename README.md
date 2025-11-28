@@ -1,133 +1,142 @@
-🛒 Product Behaviour Analysis – Data Analytics Project
+# 🛒 Product Behaviour Analysis – Complete Data Analytics Project
+
+This project performs a full **Exploratory Data Analysis (EDA)** on the **Shopping Behaviour & Product Ranking Dataset**.  
+It includes **data cleaning, visualization, trend discovery, and advanced customer insight analysis**, making it ideal for:
+
+- 📊 Data analytics learners  
+- 🎓 Students  
+- 🧠 Anyone interested in understanding real-world customer behaviour  
 
-A complete end-to-end exploratory data analysis (EDA) on customer shopping behaviour using Python, Pandas, Matplotlib, and Seaborn.
+---
 
-📌 Project Overview
+## 🗂️ 1. Dataset Used
 
-This project analyzes customer shopping behaviour using the Shopping Behaviour and Product Ranking Dataset from Kaggle.
-It includes:
+**Dataset Name:** *Shopping Behaviour & Product Ranking Dataset (Kaggle)*  
+
+This dataset contains customer demographics, product details, purchase patterns, review behavior, and seasonal buying trends.
+
+---
+
+## 📂 2. Shopping Behaviour Dataset Structure
 
-✔ Customer demographics
+| Column Name | Description |
+|------------|-------------|
+| **Age** | Age of the customer |
+| **Gender** | Male/Female |
+| **Location** | Customer’s city or region |
+| **Item Purchased** | Product purchased |
+| **Category** | Product category (Clothing, Footwear, etc.) |
+| **Purchase Amount (USD)** | Total money spent |
+| **Season** | Season of purchase |
+| **Color** | Product color |
+| **Review Rating** | Customer rating (1–5) |
+| **Previous Purchases** | Number of past purchases |
+| **Frequency of Purchases** | Level of purchase frequency |
+| **Size** | Product size (S/M/L etc.) |
+| **Payment Method** | Cash, Credit Card, etc. |
+| **Subscription Status** | Whether the user is subscribed |
+| **Discount Applied** | Yes/No |
+
+---
 
-✔ Purchase trends
+## 🧾 3. Analysis Highlights
 
-✔ Seasonal behaviour
+### 🔹 **Customer Behaviour Insights**
+- Age distribution of shoppers  
+- Gender-wise spending comparison  
+- Spending variations across different age groups  
+- Top locations generating highest revenue  
+- Review rating patterns across ages  
+- Purchase frequency comparison by gender  
 
-✔ Product popularity
+---
 
-✔ Payment insights
+### 🔹 **Product & Category Insights**
+- Most popular items  
+- **Total revenue per category**  
+- Top 10 highest-earning products  
+- Impact of size on purchase amount  
+- Most frequently purchased product colors  
+- Review rating comparison across categories  
+- Season × Color heatmap for product preference  
 
-✔ Subscription & discount analysis
+---
 
-The goal is to derive business insights that can help with marketing, product planning, and customer personalization.
+### 🔹 **Seasonal Analysis**
+- Season with highest total purchases  
+- Average spending by season  
+- Category performance across different seasons  
+- Review rating variations by season  
 
-📂 Dataset
+---
 
-Source: Kaggle – Shopping Behaviour and Product Ranking Dataset
-The dataset contains the following key columns:
+### 🔹 **Subscription & Discount Insights**
+- Spending comparison: **Subscribed vs Non-Subscribed** users  
+- % of subscribed users who apply discounts  
+- Does discount improve review rating?  
+- Discount behaviour across product categories  
 
-Age
+---
 
-Gender
+### 🔹 **Payment Method Analysis**
+- Most commonly used payment method  
+- Highest revenue-generating method  
+- Cash vs Credit Card spending comparison  
+- Review rating patterns for each payment method  
 
-Location
+---
 
-Item Purchased
+## 📊 4. Advanced Analysis Components
 
-Category
+### 🧮 **Statistical Patterns**
+- Correlation analysis  
+- Trend analysis across seasons  
+- Category-wise performance clustering  
 
-Purchase Amount (USD)
+### 📉 **Visualizations Created**
+Using **Matplotlib** and **Seaborn**:
 
-Season
+- Bar charts  
+- Pie charts  
+- Heatmaps  
+- Line plots  
+- Category comparison graphs  
+- Distribution plots  
 
-Color
+---
 
-Review Rating
+## 📌 5. Key Business Questions Answered
 
-Previous Purchases
+| Category | Example Questions Answered |
+|----------|----------------------------|
+| **Customer Behaviour** | Which age group spends the most? Who buys more—men or women? |
+| **Product Insights** | Which items are most popular? Which colors sell most? |
+| **Seasonal Trends** | Which season generates the highest revenue? |
+| **Subscription Analysis** | Do subscribed users spend more? |
+| **Discount Analysis** | Does applying a discount improve ratings or sales? |
+| **Payment Analysis** | Which payment method brings the highest revenue? |
 
-Frequency of Purchases
+---
 
-Size
+## 🎯 6. Skills Practiced
 
-Payment Method
+- Data cleaning & preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Statistical interpretation  
+- Visualization techniques  
+- Business insights & storytelling  
+- Working with real-world retail datasets  
 
-Subscription Status
+---
 
-Discount Applied
+## 🛠️ 7. Tools & Technologies Used
 
-🛠 Technologies Used
+- **Python**  
+- **Pandas, NumPy**  
+- **Matplotlib, Seaborn**  
+- **Google Colab / Jupyter Notebook**  
+- **KaggleHub**  
 
-Python
+---
 
-Pandas
 
-NumPy
-
-Matplotlib
-
-Seaborn
-
-KaggleHub
-
-Google Colab
-
-📊 Analysis Sections
-
-🔹 A. Customer Behaviour Analysis
-
-Age distribution
-
-Gender-wise average purchase comparison
-
-Spending by age group
-
-Top locations by spending
-
-Review ratings across age groups
-
-Purchase frequency split by Gender
-
-🔹 B. Product & Category Insights
-
-Most popular items
-
-Revenue by category
-
-Top 10 highest-earning products
-
-Does Size affect purchase amount?
-
-Most frequently purchased colors
-
-Review ratings across categories
-
-Season × Color heatmap
-
-🔹 C. Seasonal Trends
-
-Total sales by season
-
-Average spending by season
-
-Review ratings across seasons
-
-Category performance per season
-
-🔹 D. Subscription & Discount Analysis
-
-Spending: Subscribed vs Non-Subscribed customers
-
-Percentage of subscribed users who apply discounts
-
-Impact of discounts on review rating
-
-🔹 E. Payment Method Insights
-
-Most used payment method
-
-Highest revenue-generating payment method
-
-Review ratings by payment method
-
-Spending behavior of Cash vs Credit Card users
